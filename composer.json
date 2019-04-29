@@ -1,0 +1,30 @@
+{
+    "name": "xiaoxiao/urlhandle",
+    "description": "scan the url and find can not request url",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaoxiao",
+            "email": "jixiao35@qq.com"
+        }
+    ],
+    "support": {
+        "email" : "jixiao35@qq.com"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelAcademy\\UrlScanner\\": "src/"
+        }
+    }
+}
